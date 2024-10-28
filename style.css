@@ -1,0 +1,89 @@
+body {
+    overflow-x: hidden;
+    background-color: rgba(242, 246, 255, 1);
+  }
+  
+  .navbar {
+    display: flex;
+    height: 90px;
+  }
+  
+   
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #272c37;
+    font-size: 16px;
+  }
+  
+  .nav-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .nav-select {
+    height: 32px;
+    border: none;
+    background: transparent;
+    color: #272c37;
+    padding: 0 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-left: auto;
+  }
+  
+  .nav-select:hover {
+    cursor: pointer;
+  }
+  
+  .login-btn {
+    display: inline-block;
+    width: 90px;
+    height: 42px;
+    background-color: rgba(47, 200, 155, 1);
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-btn:hover {
+    color: #272c37;
+    background-color: rgba(70, 177, 145, 0.975);
+  }
+  
+  .images-div {
+    display: grid;
+    grid-template-columns: 21% 58% 21%;
+    gap: 8px;
+    height: 100vh;
+  }
+  
+  .images-div > div {
+    display: grid;
+    gap: 8px;
+  }
+  
+  .img-col-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .img-col-2 img {
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+  }
+  
+  .images-div img {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
